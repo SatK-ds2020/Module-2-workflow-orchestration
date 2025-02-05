@@ -6,13 +6,12 @@ Assignment: In order to extend the existing flows to include data for the year 2
 
 #### yellow taxi scheduled backfill for 2021-01-01 to 2021-07-31 time frame 
 
-<img src="pics/Screenshot 2025-02-05 164224.png" alt="backfill" width="200" height="100">
+<img src="pics/Screenshot 2025-02-05 164224.png" alt="backfill" width="500" height="300">
 
-![Alt text]("pics/Screenshot 2025-02-05 164224.png")
+<img src="pics/Screenshot 2025-02-05 165335.png" alt="yellow taxi" width="500" height="300">
 
-![Alt text]("pics/Screenshot 2025-02-05 165335.png")
+<img src="pics/Screenshot 2025-02-05 165320.png" alt="yellow taxi" width="500" height="300">
 
-![Alt text]("pics/Screenshot 2025-02-05 165320.png")
 
 #### green taxi scheduled backfill for 2021-01-01 to 2021-07-31 time frame 
 
