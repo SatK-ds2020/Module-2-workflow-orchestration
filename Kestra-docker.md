@@ -1,4 +1,21 @@
 # Getting starting with Kestra
+
+### kestra and postgres are setup in docker containers using doker-compose.yaml file in pwd for rest of the project.
+```
+docker-compose up
+```
+### To load data to postgres a seperate intsance was created and connected through pgadmin
+* reference: dataload-pipeline-postgres/docker-compose.yml
+Run Postgres to extract data and put in database
+
+Using pgcli to connect to Postgres
+```
+$ pgcli -h localhost -p 5432 -u kestra -d de-zoomcamp
+```
+* yellow_tripdata rows: 14687167
+* green_tripdata rows: 6044050
+
+## some examples flow for Kestra understanding
 ```
 docker run --pull=always --rm -it -p 8080:8080 --user=root \
   -v /var/run/docker.sock:/var/run/docker.sock \
@@ -69,14 +86,5 @@ tasks:
 ```
 Run Postgres to extract data and put in database
 
--used docker-compose.yml
-```
-docker-compose up
-```
-Using pgcli to connect to Postgres
-```
-$ pgcli -h localhost -p 5432 -u kestra -d de-zoomcamp
-```
-yellow_tripdata rows: 14687167
-green_tripdata rows: 6044050
+
 
